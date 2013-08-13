@@ -1,6 +1,7 @@
 Numbers
+=======
 
-Assortment of programs that do intersting "number" stuff.
+Assortment of programs that do interesting "number" stuff.
 
 prime.js computes the first n prime numbers using a sieve. Run from CLI:
 
