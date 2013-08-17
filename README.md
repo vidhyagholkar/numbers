@@ -10,3 +10,5 @@ Assortment of programs that do interesting "number" stuff.
 ```dec2bin.js``` computes the binary equivalent, as a string,  of a Decimal number.
 
 ```node dec2bin 42```
+
+```pset.js``` computes the powerset from an array.
