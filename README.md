@@ -12,3 +12,5 @@ Assortment of programs that do interesting "number" stuff.
 ```node dec2bin 42```
 
 ```pset.js``` computes the powerset from an array.
+
+```uprime.js``` computes the unique prime factors of a number, or indicates the number is prime.
