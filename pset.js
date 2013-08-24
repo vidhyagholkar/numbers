@@ -1,13 +1,12 @@
-a=['a','b','c','d','e']
-
-function pset(input){
-	var result=[[]]
+pset = function (input){
+	var pows=[[]]
 	for(var i = 0; i < input.length; i++){
-		lenT = result.length
+		lenT = pows.length
 		for (var j = 0; j < lenT; j++){
-			result.push(result[j].concat(a[i]))
+			pows.push(pows[j].concat(input[i]))
 		}
 	}
-	return result
+	return pows
 }
-console.log(pset(a))
+
+exports.powerSet = pset;
