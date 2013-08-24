@@ -14,4 +14,4 @@ Assortment of programs that do interesting "number" stuff.
 ```pset.js``` computes the powerset from an array.
 
 ```uprime.js``` computes the unique prime factors of a number, or indicates the number is prime.
-```factors.js``` computes the prime factors of a number, or indicates the number is prime.
+```factors.js``` computes all the factors of a number and its prime factors of a number, or indicates the number is prime.
