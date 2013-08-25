@@ -7,7 +7,8 @@ var N = factorize
 , strPrimeFactors = [ ]
 , rptFactors = [ ]
 , psetInt = [ ]
-, prime = true;
+, prime = true
+, allFactors =[ ];
 
 isPrime = function(tryprime) {
 	var check = 2
@@ -47,8 +48,8 @@ if (N == uniquePrimes) {
 		}
 	})
 
-    console.log('The Prime Factors are: ', primeFactors.join)
-	console.log('The Unique Prime Factors are: ', uniquePrimes.join)
+    console.log('The Prime Factors are: ', primeFactors.join())
+    console.log('The Unique Prime Factors are: ', uniquePrimes.join())
 }
 
 if (!prime){
@@ -56,19 +57,17 @@ primeFactors.forEach(function(el){strPrimeFactors.push(el.toString())})
 
     pset = pow.powerSet(strPrimeFactors)
     pset.shift()
-    console.log('x',pset)
     for(var i = 0, len = pset.length; i<len; i++) {
 	psetInt.push(pset[i].map(function(el){return parseInt(el,10)}))
 }
-    console.log('xx',psetInt)
     for(var i = 0, len = pset.length; i<len; i++) {
 	rptFactors.push(psetInt[i].reduce(function(a,b){return a * b}))
 
 }
-console.log(rptFactors)
+
 rptFactors.sort(function(a,b){return a-b})
-allFactors =[ ]
+
  for (var i=0; i<len; i++){
  	if(rptFactors[i] !== rptFactors[i+1]) {allFactors.push(rptFactors[i])}
  }
-console.log('The factors of', N, 'are ', allFactors)}
+console.log('The factors of', N, 'are: ', allFactors.join())}
