@@ -56,7 +56,8 @@ if (!prime){
 primeFactors.forEach(function(el){strPrimeFactors.push(el.toString())})
 
     pset = pow.powerSet(strPrimeFactors)
-    pset.shift()
+    pset[0] = [1]
+console.log(pset)
     for(var i = 0, len = pset.length; i<len; i++) {
 	psetInt.push(pset[i].map(function(el){return parseInt(el,10)}))
 }
