@@ -40,7 +40,7 @@ foundP = listOfPrimes(N)
 uniquePrimes =  foundP.filter(function(el){ return N%el === 0 })
 if (N == uniquePrimes) {
 	prime = true;
-	console.log(N, 'is Prime')} else {
+	console.log(N, 'is Prime as its only factors are 1 and', N)} else {
 		prime = false;
 		uniquePrimes.forEach(function(el){n = N; while (n%el === 0) {
 			primeFactors.push(el)
