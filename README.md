@@ -2,7 +2,7 @@ Numbers
 =======
 
 Assortment of programs that do interesting "number" stuff.
-Code| |
+Code|Function |
 :---:|:---|:---
 ```prime.js```| First n prime numbers using a sieve.|```node prime 129``` writes the first 129 prime numbers to primes.txt.
 
