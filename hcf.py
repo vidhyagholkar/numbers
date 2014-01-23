@@ -1,13 +1,12 @@
 #!/usr/bin/python
 def hcf(a,b):
-    if (a or b) == 0:
-        print "Both numbers should be integers > 0"
-        return None
-    if a < b:
-        a,b = b,a    
-    while True:    
-        r = a%b
-        if r == 0:
-            return b
-        a,b = b,r
+    r = a%b
+    while r  != 0:
+        return hcf(b, r)
+    return b
+
+if __name__ == "__main__":
+    print "Highest Common Factor of 75 and 715 is", hcf(75,715)
+    print "Highest Common Factor of 108 and 90 is", hcf(108,90)
+
 
