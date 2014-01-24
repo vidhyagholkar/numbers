@@ -9,4 +9,4 @@ Code | Function |
 ```pset.js``` | Powerset from an array. | 
 ```uprime.js``` | Unique prime factors of a number, or indicates the number is prime. |  
 ```factors.js``` | Factors of a number and its prime factors, or indicates the number is prime. |  
-```hcf.py``` | Highest Common Factor (also known as Greatest Common Divisor) of two numbers. |  
+```hcf.py hcf.js``` | Highest Common Factor (also known as Greatest Common Divisor) of two numbers. |  
