@@ -10,3 +10,4 @@ Code | Function |
 ```uprime.js``` | Unique prime factors of a number, or indicates the number is prime. |  
 ```factors.js``` | Factors of a number and its prime factors, or indicates the number is prime. |  
 ```hcf.py hcf.js``` | Highest Common Factor (also known as Greatest Common Divisor) of two numbers. |  
+```ehcf.js``` | Extended Euclidean Algorithm computes integers (i,j) for integers (a,b) whose HCF is h: h = i*a +j*b |  
